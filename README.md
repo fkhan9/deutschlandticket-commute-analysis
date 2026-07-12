@@ -4,11 +4,11 @@
 
 This is my submission for the Data Science Intern technical assessment. The task was to estimate how attractive public transport would be for employees commuting to J&J Medical GmbH in Norderstedt, using synthetic employee data since real employee addresses cannot be used, and to figure out how likely those employees would be to pick up a Deutschlandticket.
 
-All the notebook cells have already been run and their outputs (tables, charts, the interactive maps) are saved in notebook.ipynb. You do not need to run anything yourself to see the results. If you do want to run it, see the setup section below, but it is optional.
+All the notebook cells have already been run and their outputs (tables, charts, the interactive maps) are saved in deutschlandticket-commute-analysis.ipynb. You do not need to run anything yourself to see the results. If you do want to run it, see the setup section below, but it is optional.
 
 A note on the interactive maps
 The maps in this project are interactive HTML content embedded in the notebook. GitHub does not render this kind of embedded content when you view the notebook directly on github.com, so the maps will appear blank there even though the rest of the notebook, including all the tables and charts, displays correctly. To see the notebook with the maps rendering properly, view it through nbviewer instead:
-https://nbviewer.org/github/fkhan9/deutschlandticket-commute-analysis/blob/a35a7441607996696ac54b71b7a4393d8c7c4127/notebook.ipynb
+https://nbviewer.org/github/fkhan9/deutschlandticket-commute-analysis/blob/86f6972c8a907ee2d1e6061806851896a84649e7/deutschlandticket_commute_analysis.ipynb
 
 ## Summary findings
 
@@ -113,7 +113,7 @@ Data files are cached in the data folder so re-running the notebook does not rep
 
 ```
 project/
-  notebook.ipynb          main analysis, already executed with saved outputs
+  deutschlandticket-commute-analysis.ipynb          main analysis, already executed with saved outputs
   config.py                 constants and API key loading
   utils.py                  reusable helper functions
   data/                       cached datasets, buildings, stops, commute times, places
@@ -121,4 +121,4 @@ project/
   requirements.txt
 ```
 
-> **Note on AI Use:** I utilized Claude while building this project. I made the decisions, the approach, the sampling design, the scoring formula, and the interpretation of the results. AI helped mainly with syntax, learning the specific APIs I had not used before, and working with a few libraries I was less familiar with, so I could spend more time on the analysis itself.
+> **Note on AI Tooling:** I utilized Claude while building this project. I made the decisions, the approach, the sampling design, the scoring formula, and the interpretation of the results. AI helped mainly with syntax, learning the specific APIs I had not used before, and working with a few libraries I was less familiar with, so I could spend more time on the analysis itself.
