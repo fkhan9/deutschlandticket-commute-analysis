@@ -8,7 +8,7 @@ All the notebook cells have already been run and their outputs (tables, charts, 
 
 A note on the interactive maps
 The maps in this project are interactive HTML content embedded in the notebook. GitHub does not render this kind of embedded content when you view the notebook directly on github.com, so the maps will appear blank there even though the rest of the notebook, including all the tables and charts, displays correctly. To see the notebook with the maps rendering properly, view it through nbviewer instead:
-https://nbviewer.org/github/fkhan9/deutschlandticket-commute-analysis/blob/main/notebook.ipynb
+https://nbviewer.org/github/fkhan9/deutschlandticket-commute-analysis/blob/a35a7441607996696ac54b71b7a4393d8c7c4127/notebook.ipynb
 
 ## Summary findings
 
