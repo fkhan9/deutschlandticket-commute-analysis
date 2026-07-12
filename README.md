@@ -121,4 +121,4 @@ project/
   requirements.txt
 ```
 
-> **Note on AI Tooling:** I utilized Claude while building this project. I made the decisions, the approach, the sampling design, the scoring formula, and the interpretation of the results. AI helped mainly with syntax, learning the specific APIs I had not used before, and working with a few libraries I was less familiar with, so I could spend more time on the analysis itself.
+> **Note on AI Use:** I utilized Claude while building this project. I made the decisions, the approach, the sampling design, the scoring formula, and the interpretation of the results. AI helped mainly with syntax, learning the specific APIs I had not used before, and working with a few libraries I was less familiar with, so I could spend more time on the analysis itself.
